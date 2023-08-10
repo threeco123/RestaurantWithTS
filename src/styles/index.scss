@@ -1,0 +1,55 @@
+@import 'reset';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  body {
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #232323;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+table {
+  width: 100%;
+}
+thead {
+  background-color: #f7f7f8;
+}
+th,
+td {
+  vertical-align: middle;
+  white-space: nowrap;
+}
+th {
+  padding: 20px 30px;
+  font-weight: 600;
+  text-align: left;
+}
+td {
+  padding: 15px 30px;
+}
+
+.rc-time-picker-panel-input-wrap {
+  display: none;
+}
+
+.rc-time-picker-panel-inner {
+  margin-top: 5px;
+}
+
+.rc-time-picker-panel-select {
+  font-size: 16px !important;
+  width: auto !important;
+  padding: 10px;
+  max-height: 250px !important;
+}
+.rc-time-picker-panel-combobox {
+  display: flex !important;
+}
